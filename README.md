@@ -29,7 +29,7 @@ Output the image using cv2.imshow("OUTPUT", image).
 ```python
 import cv2
 houseImage = cv2.imread('dip.jpg')
-cv2.imshow('212222240036 IYYANAR S',houseImage)
+cv2.imshow('212222240036_IYYANAR ,houseImage)
 hsvImage = cv2.cvtColor(houseImage,cv2.COLOR_BGR2HSV)
 cv2.imshow('BGR2HSV',hsvImage)
 hsvImage1=cv2.cvtColor(houseImage,cv2.COLOR_RGB2HSV)
@@ -50,7 +50,7 @@ cv2.destroyAllWindows()
 ```
 import cv2
 houseHSVImage = cv2.imread('dip.jpg')
-cv2.imshow('212222230134_SARGURU',houseHSVImage)
+cv2.imshow('212222240036_IYYANAR',houseHSVImage)
 RGBImage = cv2.cvtColor(houseHSVImage,cv2.COLOR_HSV2RGB)
 cv2.imshow('BGR2HSV',RGBImage)
 BGRImage=cv2.cvtColor(houseHSVImage,cv2.COLOR_HSV2BGR)
@@ -65,7 +65,7 @@ cv2.destroyAllWindows()
 ```
 import cv2
 houseImage = cv2.imread('dip.jpg')
-cv2.imshow('212222230134_SARGURU',houseImage)
+cv2.imshow('212222240036_IYYANAR',houseImage)
 YCrCb_image = cv2.cvtColor(houseImage, cv2.COLOR_RGB2YCrCb)
 cv2.imshow('BGR2HSV',YCrCb_image)
 YCrCb_image1 = cv2.cvtColor(houseImage, cv2.COLOR_BGR2YCrCb)
@@ -88,7 +88,7 @@ cv2.imshow('B-Channel',blue)
 cv2.imshow('G-Channel',green)
 cv2.imshow('R-Channel',red)
 mergeBgr = cv2.merge((blue,green,red))
-cv2.imshow('212222230134_SARGURU',mergeBgr)
+cv2.imshow('212222240036_IYYANAR',mergeBgr)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
@@ -104,7 +104,7 @@ cv2.imshow('Hue - Image',h)
 cv2.imshow('Saturation - Image',s)
 cv2.imshow('Gray - Image',v)
 mergedHSV = cv2.merge((h,s,v))
-cv2.imshow('212222230134_SARGURU',mergedHSV)
+cv2.imshow('212222240036_IYYANAR',mergedHSV)
 cv2.waitKey(0)
 cv2.destroyAllWindow()
 
